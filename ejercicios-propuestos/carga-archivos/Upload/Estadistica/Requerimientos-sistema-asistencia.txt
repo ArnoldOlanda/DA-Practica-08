@@ -1,0 +1,20 @@
+Sistema de asistencia NODEJS-EXPRESS
+
+1.1 Requerimientos del sistema
+El sistema debe:
+--Registrar y validar los datos de los usuarios en el sistema
+--Modificar los datos de los usuarios
+--Activar o desactivar el estado de un usuario
+--Registrar los horarios(turnos) de asistencia
+--Modificar horarios
+--Crear nombres de usuario y contraseña cifrada para cada usuario registrado
+--Modificar el nombre de usuario
+--Modificar la contraseña de un usuario
+--Registrar la asistencia de entrada y salida de un usuario mediante su numero de dni
+--Asignar a un usuario a un turno u horario determinado
+--Cambiar el horario de un usuario a otro
+--Permitir ver a un usuario sus registro de asistencias mensuales
+--Generar una vista y/o reporte de los registros de asistencia diarios y mensuales
+--Generar un vista estadistica de los registros de asistencia
+
+

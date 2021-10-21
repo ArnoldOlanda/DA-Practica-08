@@ -1,0 +1,90 @@
+Military!
+Kodomo no Jikan
+Seitokai no Ichizon
+Shining Hearts: Shiawase no Pan
+Renai Boukun
+araburu kisetsu
+Hitoribocchi no ○○ Seikatsu
+Mashiro-iro Symphony
+ToraDora
+Grancrest Senki
+Sounan Desu ka?
+Skirt no Naka wa Kedamono Deshita
+Nanatsu no Bitoku
+Shining Hearts: Shiawase no Pan
+Kageki Shoujo!!
+
+https://hentaird.tv/video-hentai/sweet-home-1/
+https://hentaila.com/hentai-shoujo-kyouiku-re
+https://hentaila.com/hentai-enjo-kouhai
+https://hentaila.com/hentai-ochi-mono-rpg-seikishi-luvilias-
+https://hentaila.com/ver/eroge-h-mo-game-mo-kaihatsu-zanmai-1
+https://www.ver-hentai.online/hentaionline/nama-lo-re-nama-kemono-the-animation-1.html
+
+Para poner contraseña modo EXEC usuario
+-enable
+-configure terminal
+-line console 0
+-password xxxxxx
+-login
+-end
+
+Para poner contraseña modo EXEC privilegiado
+EN CONFIGURE TERMINAL
+-enable secret xxxxxxx
+-exit
+
+Para poner contraseña al acceso a la line VTY (acceso remoto)
+EN CONFIGURE TERMINAL
+-line vty 0 15 		// 15  valor maximo,puede variar
+-password xxxxxx
+-login
+-end
+
+Encriptar  todas las contraseñas
+EN CONFIGURE TERMINAL
+-service password-encryption
+-exit
+
+Para poner un banner (mensaje de bienvenida)
+EN CONFIGURE TERMINAL
+-banner motd #mensaje de ejemplo#
+
+Para configurar SVI (ip de un switch/router)
+EN CONFIGURE TERMINAL
+-interface vlan1
+-ip address 192.168.1.20 255.255.255.0
+-no shutdown
+-ip default-gateway
+
+Para guardar la configuracion
+-copy running-config startup-config
+
+
+Password router marcopolo:
+B77CF2330BF6
+Password wifi: Olanda12
+
+Para evitar problemas no deseados con los modales usar <button type="button"></button>
+
+
+Sixenom2020
+
+Password impres admin : heroku-app-impress
+
+sl.Ak7HFrfdgAMASpfVJE3kjW_7OAcvgV6OOyGqwR2ddLbecYUKocwEZ0Q9aLvL3rP0ZEkmgNaMu27EdMt1lgRdPiF706Lyedvh7kuzVsyKvdMc_eL2JJjSiZsuV0abWvN_F8JTDn8
+
+Contraseña ucsm app : PUlZXI9mU0
+
+IP Publica AWS Linux: 34.229.137.207
+user:ec2-user
+------------------------------
+https://drive.google.com/drive/u/0/folders/1-CCwV7VrAhIpNv7yF64_W4HXQvdkR1zZ
+/////////////////////////////////////////////
+<siteMap>
+      <providers>
+      	<clear />
+        <add name="MySqlSiteMapProvider" type="MySql.Web.SiteMap.MySqlSiteMapProvider, MySql.Web, Version=8.0.25.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" connectionStringName="LocalMySqlServer" applicationName="/" />
+      </providers>
+    </siteMap>
+/////////////////////////////////////////////////////

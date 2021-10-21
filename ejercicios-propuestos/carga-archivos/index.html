@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carga archivos</title>
+  </head>
+  <body>
+
+    <form enctype="multipart/form-data" action="subirArchivos.php" method="POST">
+
+      <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+
+      Archivos a subir: <input name="archivo" type="file"/>
+      <select name="carpeta" id="carpeta">
+          <option value="Desarrollo">Desarrollo Web</option>
+          <option value="Bd">Base de datos</option>
+          <option value="Estadistica">Estadistica</option>
+      </select>
+      <input type="submit" value="Enviar archivo" />
+    </form>
+  </body>
+</html>

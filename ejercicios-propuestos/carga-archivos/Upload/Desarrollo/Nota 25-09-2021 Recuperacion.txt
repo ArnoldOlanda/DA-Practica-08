@@ -1,0 +1,14 @@
+Apuntes 25/09/2021
+Base de datos : Conjunto o coleccion de datos ordenados que sirven para convertirse en informacion
+Modelo conceptual. modelo er (entidades,atributos,vinculos)
+Modelo logico o representacion:implementable en cualquier gestor
+Modelo Fisico:modelo logico especificado para un determinado gestor de BD.
+
+
+1: Analisis de entidades fuertes
+2: "        "   "        debiles(Las entidades se convierten en tablas)
+3(1:1), 4(1:N), 5(M:N): Analisa vinculos binarios simples (no los indentificadores)
+6: Analiza los atributos multivaluados
+7: Vinculos n-arios
+  
+ 

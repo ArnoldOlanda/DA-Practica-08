@@ -1,0 +1,41 @@
+Modelo ER
+-Conceptual
+-Alto nivel
+
+Elementos: 
+Entidades:Una cosa del mundo con existencia independiente,es un contenedor de datos , puede ser conceptual(abstracto) o fisica.
+ -Tipos:
+	Debiles: No se identifica por si misma en el modelo			dependen de otra entidad para existir y sus atributos no 		sirven para identificarla.(Rectangulo linea doble)
+
+	Fuertes: Si se puede identificar por si sola.El resto de 	entidades en su mayoria. (Rectangulo linea simple)
+
+Atributos: Son los datos, caracteristicas de las entidades que son importantes para la base de datos. Se representan por un ovalo.
+	-Atributo nulo: no tiene valor aplicable
+	-Dominio de un atributo: Conjunto de valores restringidos
+	-Restriccion de unicidad(atributo clave): NO SE REFIERE 	 A CALVE PRIMARIA;Todos sus valores son diferentes, no se 	 puede repetir(se representa subrayando el nombre del 	 atributo).
+
+	Tipos
+	 Simples(Atomicos): No puede descomponerse su valor(Ovalo simple)
+	 Compuestos: Flexible, se puede descomponer si es que se 	 requiere (Ovalo simple unido a los datos descompuestos).
+
+	 Monovaluados: Acepta un unico valor para una entidad
+	 Multivaluados: Acepta mas de un valor para una entidad (Ovalo 	doble linea)
+	
+	 Derivados o calculado(elipse punteado): Se pueden obtener a 		 travez de otros atributos de la base de datos
+	 Almacenados: Atributos una vez que se pierden dificilmente 	 se puede recuperar
+Relaciones(Vinculos): 
+	Implicito: Que un atributo de una entidad menciona a otra 	entidad por lo que se sobreentiende deben relacionarse.
+
+	Grado del vinculo: cuantas entidades se relacionan
+	Atributo de un vinculo: Cuando el atributo no le pertenence 	a ninguna de la entidades relacionadas.
+
+	Vinculo identificador: Relaciona una entidad fuerte con una 	debil (rombo doble linea con enlace de linea doble del lado 	de la entidad debil).
+	
+	Cardinalidad: 1 a 1; 1 a muchos; muchos a muchos
+	
+	Participacion: Es una restriccion, indica si todos elementos 	de una entidad participan en el vinculo. 
+
+El modelo ER refleja el mundo real no tiene nada que ver con la computadora.
+<
+
+  

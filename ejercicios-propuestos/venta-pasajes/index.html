@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venta de pasajes</title>
+  </head>
+  <body>
+    <h1>Venta de pasajes</h1>
+    <hr />
+    <form action="validaInfo.php" method="post">
+      <label for="txtnombre">Nombre</label>
+      <input type="text" name="txtnombre" id="txtnombre" autocomplete="off"/>
+      <br />
+      <label for="txtapellido">Apellido</label>
+      <input type="text" name="txtapellido" id="txtapellido" autocomplete="off"/>
+      <br />
+      <label for="fecha">Fecha nacimiento</label>
+      <input type="date" name="fecha" id="fecha" />
+      <br />
+      <label for="origen">Lugar de origen</label>
+      <select name="origen" id="origen">
+        <option value="Peru" selected>Peru</option>
+        <option value="Mexico">Mexico</option>
+        <option value="Argentina">Argentina</option>
+        <option value="España">España</option>
+      </select>
+      <br />
+      <label for="destino">Lugar de destino</label>
+      <select name="destino" id="destino">
+        <option value="Peru">Peru</option>
+        <option value="Mexico">Mexico</option>
+        <option value="Argentina">Argentina</option>
+        <option value="España" selected>España</option>
+      </select>
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
